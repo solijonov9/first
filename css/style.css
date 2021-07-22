@@ -446,3 +446,10 @@ textarea{
 	background: url(../image/footer.jpg) no-repeat center center;
 	background-size: cover;
 }
+#footer h3{
+	color: gold;
+	float: right;
+	font-style: italic;
+	margin-top: 100px;
+	margin-right: 100px;
+}
