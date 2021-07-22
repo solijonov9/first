@@ -1,0 +1,448 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: calibri, sans-serif;
+}
+#sayt{
+	width: 1260px;
+	/*height: 5000px;*/
+	background: #eee;
+	margin: 0px auto;
+}
+/*heaDER BOSHLANDI*/
+#header{
+	width: 1260px;
+	height: 770px;
+	background: url(../image/head_fon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#row_logo{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 150px;
+}
+#hblok1,#hblok2,#hblok3{
+	/*border: 1px solid #ccc;*/
+	float: left;
+	height: 150px;
+	width: 420px;
+}
+#hblok2{
+	background: url(../image/logo.png);
+	background-repeat: no-repeat;
+	background-position: center 55px;
+}
+#hblok1{
+	height: 51px;
+	width: 260px;
+	padding-top: 99px;
+	padding-left: 160px;
+}
+#hblok1 a{
+	color: #ffffff;
+	font-family: calibri;
+	font-size: 16pt;
+	text-decoration: none;
+	transition: all 1s;
+}
+#hblok1 a:hover{
+	text-shadow: 0px 18px 3px #bbc0f4;
+}
+#hblok3 {
+	height: 51px;
+	width: 288px;
+	padding-top: 99px;
+	padding-left: 132px;
+}
+#hblok3 a{
+	font-family: calibri;
+	color: #ffffff;
+	font-size: 16pt;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all 1s;
+}
+#hblok3 a:hover{
+	text-shadow: 0px 18px 3px #bbc0f4;
+	transform: scale(2);
+}
+#header nav ul{
+	list-style: none;
+	text-transform: uppercase;
+	font-family: calibri;
+	display: flex;
+	font-weight: bolder;
+	justify-content: space-around;
+}
+#header nav ul li a{
+	color: #ffffff;
+	transition: 1s;
+	display: block;
+	text-decoration: none;
+}
+#header nav ul li:hover a{
+	text-shadow: 0px -10px 3px #bbc0f4;
+	transform: scale(1.1);
+}
+
+#header nav{
+	clear: both;
+	/*border: 1px solid red;*/
+	/*padding-bottom: 60px;*/
+	padding-left: 100px; 
+	padding-right: 100px; 
+	margin-top: 540px;
+}
+/*header tugadi*/
+/*about us boshlANDI*/
+#about{
+	width: 1260px;
+	height: 670px;
+	background-color: #ffffff;
+}
+#ablok1{
+	width: 375px;
+	height: 540px;
+	margin-left: 160px;
+	float: left;
+	padding-top: 130px;
+	font-family: calibri;
+	/*border: 1px solid red;*/
+}
+#ablok2{
+	width: 545px;
+	height: 530px;
+	float: left;
+	padding-top: 140px;
+	padding-left: 20px;
+	line-height: 27px;
+	font-family: ubuntu, sans-serif;
+	font-weight: 16pt;
+	font-size: 16px;
+	/*border: 1px solid red;*/
+}
+#ablok1 p{
+	text-transform: uppercase;
+	font-size: 48pt;
+	font-weight: lighter;
+	font-family: calibri;
+}
+#ablok1 p span{
+	color: #00aaef;
+}
+#ablok2 ol{
+	/*border: 1px solid red;*/
+	width: 395px;
+}
+#ablok2 ol li{
+	line-height: 20px;
+}
+/*about us tugadi*/
+/*gallery BOSHLANDI*/
+#gallery{
+	width: 940px;
+	height: 1260px;
+	padding-left: 160px;
+	padding-right: 160px;
+	border: 1px solid white;
+}
+#g_name{
+	width: 225px;
+	height: 90px;
+	position: absolute;
+	margin-left: 370px;
+	margin-top: -45px;
+	padding-top: 10px;
+	line-height: 70px;
+	background: url(../image/crown_mini.png) no-repeat center bottom;
+	transition: 1s;
+}
+#g_name h1{
+	text-transform: uppercase;
+	font-family: calibri;
+	font-weight: lighter;
+	font-size: 48pt;
+}
+#gallery:hover #g_name{
+	background: url(../image/crown_mini_180.png) no-repeat center top;
+}
+#gblok1,#gblok2,#gblok3{
+	width: 940px;
+	height: 300px;
+	margin-top: 10px;
+	/*border: 1px solid blue;*/
+}
+#gblok1{
+	margin-top: 100px;
+	font-size: 16pt;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+#gblok1 a{
+	color: #00aaef;
+	text-decoration: none;
+}
+#mar1{
+	margin-right: 15px;
+}
+
+#gblok2{
+	font-size: 16pt;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+#gblok2 a{
+	color: #00aaef;
+	text-decoration: none;
+}
+#edi1{
+	margin-right: 15px;
+}
+
+#gblok3{
+	font-size: 16pt;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+#gblok3 a{
+	color: #00aaef;
+	text-decoration: none;
+}
+#faena1{
+	margin-right: 15px;
+}
+
+#gblok4{
+	margin-top: 35px;
+	/*border: 1px solid red;*/
+}
+#view{
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #00aaef;
+	color: white;
+	font-size: 14pt;
+	padding: 20px 65px;
+	margin-left: 380px;
+	transition: 1s;
+}
+#view:hover{
+	/*border-radius: 0px 9px 0px 9px;*/
+	background: white;
+	border: 1px solid #00aaef;
+	color: #00aaef;
+}
+/*gallery tugadi*/
+/*consultation BOSHLANDI*/
+#consultation{
+	width: 940px;
+	height: 540px;
+	padding: 0px 160px;
+	background: #fff;
+	/*border: 1px solid #ff0;*/
+}
+#c_name{
+	width: 400px;
+	height: 90px;
+	/*border: 1px solid red;*/
+	margin-top: -45px;
+	margin-left: 270px;
+	position: absolute;
+	font-family: calibri, sans-serif;
+	font-size: 48pt;
+	font-weight: lighter;
+	text-transform: uppercase;
+	background: url(../image/crown_consul.png) no-repeat center bottom;
+	transition: 1s;
+}
+#consultation:hover #c_name{
+	background: url(../image/crown_mini_180.png) no-repeat center top;
+}
+#cblok1,#cblok2{
+	width: 460px;
+	height: 400px;
+	float: left;
+	margin-top: 90px;
+	/*border: 1px solid red;*/
+}
+#cblok1 h3{
+	font-size: 32pt;
+	font-weight: lighter;
+}
+#cblok1 p{
+	margin-top: 30px;
+	font-size: 18px;
+}
+#cblok2 form{
+	
+}
+input[type="text"]{
+	width: 380px;
+	height: 55px;
+	float: right;
+	background: #eeeeee;
+	border: none;
+	color: #9e9e9e;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 14pt;
+	text-transform: uppercase;
+	}
+input[type="email"]{
+	width: 380px;
+	height: 55px;
+	float: right;
+	background: #eeeeee;
+	border: none;
+	color: #9e9e9e;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 14pt;
+	text-transform: uppercase;
+}
+input[type="submit"]{
+	width: 380px;
+	height: 55px;
+	float: right;
+	background: #00aaef;
+	border: none;
+	color: #ffffff;
+	font-size: 14pt;
+	text-transform: uppercase;
+	transition: 1s;
+}
+input[type="submit"]:hover{
+	background: #ffffff;
+	color: #00aaef;
+	border: 1px solid #00aaef;
+}
+/*consultation tugadi
+testimonials boshlandi*/
+#test{
+	width: 940px;
+	height: 570px;
+	padding: 0px 160px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*border: 1px solid red;*/
+}
+#t_name{
+	width: 380px;
+	height: 90px;
+	text-transform: uppercase;
+	font-size: 48pt;
+	font-weight: lighter;
+	/*border: 1px solid red;*/
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 275px;
+	transition: 1s; 
+	background: url(../image/crown_consul.png) no-repeat center bottom;
+}
+#test:hover #t_name{
+	background: url(../image/crown_mini_180.png) no-repeat center top;
+}
+#tblok1,#tblok2,#tblok3{
+	width: 260px;
+	height: 400px;
+	margin-top: 90px;
+	/*border: 1px solid red;*/
+	font-size: 16pt;
+	text-align: center;
+	font-size: 12pt;
+	/*justify-content: space-between;*/
+}
+.img{
+	width: 150px;
+	height: 150px;
+	border-radius: 300px;
+	/*border: 1px solid red;*/
+	margin: 10px auto;
+}
+#img1{
+	background: url(../image/steve.jpg) no-repeat center center;
+}
+#img2{
+	background: url(../image/alisher.jpg) no-repeat center center;
+}
+#img3{
+	background: url(../image/aleksey.jpg) no-repeat center center;
+}
+#tblok1 h5{
+	margin-bottom: 30px;
+	text-align: center;
+}
+#tblok2 h5{
+	margin-bottom: 30px;
+	text-align: center;
+}
+#tblok3 h5{
+	margin-bottom: 30px;
+	text-align: center;
+}
+#tblok1 h5 i{
+	color: #696973;
+}
+#tblok2 h5 i{
+	color: #696973;
+}
+#tblok3 h5 i{
+	color: #696973;
+}
+/*testimonials tugadi
+contact boshlandi*/
+#contact{
+	clear: both;
+	width: 940px;
+	height: 610px;
+	padding: 0px 160px;
+	background: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#conname{
+	width: 245px;
+	height: 90px;
+	text-transform: uppercase;
+	font-size: 48pt;
+	font-weight: lighter;
+	/*border: 1px solid red;*/
+	position: absolute;
+	margin: -45px 348px;
+	transition: 1s; 
+	background: url(../image/crown_mini.png) no-repeat center bottom;
+}
+#contact:hover #conname{
+	background: url(../image/crown_mini_180.png) no-repeat center top;
+}
+#conblok1, #conblok2{
+	width: 400px;
+	height: 380px;
+	margin-top: 150px;
+	/*border: 1px solid red;*/
+}
+#conblok1{
+	font-size: 20pt;
+	/*font-weight: bold;*/
+}
+textarea{
+	width: 380px;
+	height: 170px;
+	float: right;
+	text-align: center;
+	background: #eeeeee;
+	border: none;
+	color: #9e9e9e;
+	margin-bottom: 10px;
+	font-size: 14pt;
+	text-transform: uppercase;
+}
+#footer{
+	width: 1260px;
+	height: 540px;
+	background: url(../image/footer.jpg) no-repeat center center;
+	background-size: cover;
+}
